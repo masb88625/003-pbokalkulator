@@ -1,5 +1,17 @@
-public class Main {
-    
+def tambah(3, 4):
+    return 3 + 4
+
+def kurang(6, 8):
+    return 6 - 8
+
+def kali(3, 4):
+    return 3 * 4
+
+def bagi(3, 4):
+    if 4 == 0:
+        return "Error: Pembagian dengan nol tidak diperbolehkan."
+    return 3 / 4    
+
 }
 print("== KALKULATOR SEDERHANA ==")
 
